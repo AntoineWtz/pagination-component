@@ -5,6 +5,8 @@
 
 .data {
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .pagination {
@@ -17,21 +19,49 @@
   display: flex;
 }
 
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #CCC;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  margin: 10px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
 .button {
-  background-color: #61dafb;
+  background-color: #4caf50;
   border: none;
-  padding: 8px 16px;
+  padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
   border-radius: 4px;
   color: white;
   margin: 0 5px;
+  transition: background-color 0.3s ease;
+  outline: none;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
 }
 
 .button:hover {
-  background-color: #21a1f1;
+  background-color: #45a049;
 }
 
 .active {
-  background-color: #21a1f1;
+  background-color: #45a049;
 }
