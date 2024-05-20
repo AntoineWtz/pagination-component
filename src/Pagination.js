@@ -11,10 +11,17 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
     return (
         <div className="pagination">
             <button
+                className="arrow"
+                onClick={() => onPageChange(1)}
+                disabled={currentPage === 1}
+            >
+                &lt;&lt;
+            </button>
+            <button
                 onClick={() => onPageChange(currentPage - 1)}
                 disabled={currentPage === 1}
             >
-                Previous
+                Prev
             </button>
             <div className="page-numbers">
                 {pageNumbers.map(number => (
@@ -32,6 +39,13 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
                 disabled={currentPage === totalPages}
             >
                 Next
+            </button>
+            <button
+                className="arrow"
+                onClick={() => onPageChange(totalPages)}
+                disabled={currentPage === totalPages}
+            >
+                &gt;&gt;
             </button>
         </div>
     );
