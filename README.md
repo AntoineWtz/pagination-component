@@ -18,7 +18,7 @@ The pagination component includes functionalities for navigating between pages a
 
 ## Demo
 
-https://antoinewtz.github.io/pagination-component/
+[Demo Link](https://antoinewtz.github.io/pagination-component/)
 
 ## Technologies Used
 
