@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pagination-component/static/css/main.6432caba.css",
+    "main.js": "/pagination-component/static/js/main.1bd6a735.js",
+    "static/js/453.91341977.chunk.js": "/pagination-component/static/js/453.91341977.chunk.js",
+    "index.html": "/pagination-component/index.html",
+    "main.6432caba.css.map": "/pagination-component/static/css/main.6432caba.css.map",
+    "main.1bd6a735.js.map": "/pagination-component/static/js/main.1bd6a735.js.map",
+    "453.91341977.chunk.js.map": "/pagination-component/static/js/453.91341977.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6432caba.css",
+    "static/js/main.1bd6a735.js"
+  ]
+}
