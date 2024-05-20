@@ -13,8 +13,8 @@ A reusable pagination component for navigating between pages of large data lists
 
 The pagination component includes functionalities for navigating between pages and displays the total number of elements and pages.
 
-1. src/Pagination.js: Contains the Pagination component logic.
-2. src/App.js: The main application component that manages the display of pagination.
+1. `src/Pagination.js`: Contains the Pagination component logic.
+2. `src/App.js`: The main application component that manages the display of pagination.
 
 ## Demo
 
